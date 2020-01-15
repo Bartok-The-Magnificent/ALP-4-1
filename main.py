@@ -30,19 +30,7 @@ print(colored("ALP> Hello USER","red"))
 sleep(0.8)
 username = input(colored("ALP> What is your name?\n","red") + colored ("USER> ", "green")).upper()
 
-with open("Usernames.txt", "r") as file:
-  lines = file.readlines()
-  for x in range(0, len(lines)):
-    single = lines[x].split("-")
-    while userfound == False:
-      if username == single[0]:
-        userfound = True
-        password = input(colored("ALP> Welcome back, "+ username + "! Please enter your password:\n","red")+ colored(username + "> ", "green"))
-        if password == single[1]:
-          print("you fuvken did it")
-    else:
-      print("i am literally going to kill myself")
-      userfound = True
+
 
 
 url = 'https://www.google.com/'
