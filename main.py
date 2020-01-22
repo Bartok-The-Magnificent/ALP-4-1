@@ -2,6 +2,7 @@ import requests
 from time import *
 from replit import *
 from termcolor import colored
+from stolencode import *
 login = False
 userfound = False
 passwordfound = False
@@ -27,11 +28,11 @@ sleep(2)
 clear()
 
 print(colored("ALP> Hello USER","red"))
+sleep(0.5)
+print(colored("ALP> Please log in or create an account:","red"))
 sleep(0.8)
-username = input(colored("ALP> What is your name?\n","red") + colored ("USER> ", "green")).upper()
 
-before = input(colored("ALP> Hello",username,", have you used ALP before?\n","red")+colored("USER>","green"))
-
+MySexyBody()
 
 url = 'https://www.google.com/'
 r = requests.get(url)
