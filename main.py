@@ -30,7 +30,7 @@ print(colored("ALP> Hello USER","red"))
 sleep(0.8)
 username = input(colored("ALP> What is your name?\n","red") + colored ("USER> ", "green")).upper()
 
-
+before = input(colored("ALP> Hello",username,", have you used ALP before?\n","red")+colored("USER>","green"))
 
 
 url = 'https://www.google.com/'
