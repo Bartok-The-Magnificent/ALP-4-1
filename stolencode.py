@@ -1,5 +1,3 @@
-
-
 def MySexyBody():
   import time,replit
   from termcolor import colored
@@ -12,6 +10,8 @@ def MySexyBody():
   option = input(colored("\nUSER> ","green")).lower()
 
   def LoginBoi():
+    global username
+    global password
     username = input("Username: ")
     password = input("Password: ")
 
@@ -75,7 +75,6 @@ def MySexyBody():
       else:
         usernumber = a / 2
       usernumber = int(usernumber)
-      print(usernumber)
       time.sleep(1)
       welcome()
       break
