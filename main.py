@@ -3,6 +3,9 @@ from time import *
 from replit import *
 from termcolor import colored
 from stolencode import *
+from urllib import *
+from searching import *
+
 login = False
 userfound = False
 passwordfound = False
@@ -34,8 +37,7 @@ sleep(0.8)
 
 MySexyBody()
 
-url = 'https://www.google.com/'
-r = requests.get(url)
+googlesearch()
 
 #  ____ _   _ _____ _____    _                           
 # / ___| | | | ____| ____|  | | __ _ _ __ ___   ___  ___ 

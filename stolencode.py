@@ -16,7 +16,7 @@ def MySexyBody():
     password = input("Password: ")
 
   def SignInBois():
-    print("Welcome back to ALP!\nPlease enter you username and password:\n")
+    print("Welcome back to ALP!\nPlease enter your username and password:\n")
     LoginBoi()
 
   def SignUpBois():
