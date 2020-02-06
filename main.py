@@ -4,19 +4,25 @@ from replit import *
 from termcolor import colored
 from stolencode import *
 from urllib import *
-from searching import *
+from googlesearch import *
+import subprocess
+from function1 import *
+from dictionaryboi import *
 
 login = False
 userfound = False
 passwordfound = False
+functioncall = 0
 
 print("Loading ALP Framework...",)
 sleep(1)
 print("...")
 sleep(1)
-print("Importing modules..")
+print("Importing modules...")
 sleep(1)
-print("Extracting Colors from termcolor module")
+print("...")
+sleep(1)
+print("Extracting Colors from termcolor module...")
 sleep(1)
 print(colored("...", "red"))
 sleep(0.9)
@@ -37,7 +43,19 @@ sleep(0.8)
 
 MySexyBody()
 
-googlesearch()
+while functioncall == 0:
+  functionchoice = input ("What would you like me to do?\n").lower()
+  if functionchoice == ("test"):
+    function1()
+    functionchoice = ("novalue")
+  if functionchoice == ("define"):
+    definitionrequest()
+    functionchoice = ("novalue")
+  if functionchoice == ("web"):
+    googlesearch()
+    functionchoice = ("novalue")
+
+
 
 #  ____ _   _ _____ _____    _                           
 # / ___| | | | ____| ____|  | | __ _ _ __ ___   ___  ___ 
