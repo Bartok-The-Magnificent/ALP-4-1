@@ -1,19 +1,20 @@
 def MySexyBody():
   import time,replit
   from termcolor import colored
+  global logincomplete
   a = 0
   option = ""
   usernumber = 0
   stuff = []
-  key = "XWaqz8SMrvvdiYNe-FqzKmBqIWQZ4GnSikmHpcniVbc="
+  key = "XWaqz8SMrvvdiYNe-FqzKmBcheshandSikmHpcniVbc="
   print(colored("ALP> Please Choose An Option:\n1.Sign In\n2.Sign Up","red"))
   option = input(colored("\nUSER> ","green")).lower()
 
   def LoginBoi():
     global username
     global password
-    username = input("Username: ")
-    password = input("Password: ")
+    username = input(str("Username: "))
+    password = input(str("Password: "))
 
   def SignInBois():
     print("Welcome back to ALP!\nPlease enter your username and password:\n")
@@ -77,11 +78,14 @@ def MySexyBody():
       usernumber = int(usernumber)
       time.sleep(1)
       welcome()
+      f = open("checklogin.txt", "w") #sets checklogin.txt to "true"
+      f.write ("true")
       break
     a = a + 2
 
   if good == 0:
     print("\nYour Password or Username is Incorrect!")
+    
 #  ____ _   _ _____ _____    _                           
 # / ___| | | | ____| ____|  | | __ _ _ __ ___   ___  ___ 
 #| |   | |_| |  _| |  _| _  | |/ _` | '_ ` _ \ / _ \/ __|

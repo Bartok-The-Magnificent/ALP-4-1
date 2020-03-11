@@ -95,6 +95,14 @@ requests = "*"
 
 [[package]]
 category = "main"
+description = "replit"
+name = "replit"
+optional = false
+python-versions = "*"
+version = "1.0.5"
+
+[[package]]
+category = "main"
 description = "Python HTTP for Humans."
 name = "requests"
 optional = false
@@ -132,7 +140,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
 version = "1.25.8"
 
 [metadata]
-content-hash = "e77983506ef0b18213b6e528c4e423bf44b45e4d0ca1c1186648309d39a2aa95"
+content-hash = "69258eb4413500ce9b6fed916da22349500caef8671f718b60dd9f624142eab9"
 python-versions = "^3.7"
 
 [metadata.hashes]
@@ -146,6 +154,7 @@ google = ["c03517e6f9eec7a03c07b864f9a64384fd4bc1efce9034d42e3f90addc9fe4ee", "f
 goslate = ["c9b7855f0984ae5012b8b8f06511e81ba197ec7b634756413b2f503554c535aa", "dee7cf08fd7d744fbb3477d28ea6a98a11b363c138d7577b4b097f517581f864"]
 idna = ["c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407", "ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"]
 pydictionary = ["660908d03c06998f8c8f4736d15f015bd8e416b66bfe00d3e6d706f79f5823ec"]
+replit = ["0323725f7e0122a7ed2f123380974158c1a3c5f5c83972924864f633cc150ef7"]
 requests = ["11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4", "9cf5292fcd0f598c671cfc1e0d7d1a7f13bb8085e9a590f48c010551dc6c4b31"]
 soupsieve = ["bdb0d917b03a1369ce964056fc195cfdff8819c40de04695a80bc813c3cfa1f5", "e2c1c5dee4a1c36bcb790e0fabd5492d874b8ebd4617622c4f6a731701060dda"]
 termcolor = ["1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"]

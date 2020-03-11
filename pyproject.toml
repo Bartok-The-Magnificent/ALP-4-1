@@ -10,6 +10,7 @@ termcolor = "^1.1"
 google = "^2.0"
 function1 = "^1.0"
 pydictionary = "^1.5"
+replit = "^1.0"
 
 [tool.poetry.dev-dependencies]
 
